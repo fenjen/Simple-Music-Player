@@ -163,13 +163,13 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/smaller_icon_size"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="@string/previous"
+            android:contentDescription="@string/media3_controls_seek_back_description"
             android:padding="@dimen/tiny_margin"
-            android:src="@drawable/ic_previous_vector"
+            android:src="@android:drawable/ic_media_rew"
             app:layout_constraintBottom_toTopOf="@+id/next_track_holder"
             app:layout_constraintEnd_toStartOf="@+id/activity_track_play_pause"
             app:layout_constraintStart_toEndOf="@+id/activity_track_toggle_shuffle"
-            app:layout_constraintTop_toBottomOf="@+id/activity_track_artist" />
+            app:layout_constraintTop_toBottomOf="@+id/activity_track_artist"/>
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/activity_track_play_pause"
@@ -192,13 +192,13 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/smaller_icon_size"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="@string/next"
+            android:contentDescription="@string/media3_controls_seek_forward_description"
             android:padding="@dimen/tiny_margin"
-            android:src="@drawable/ic_next_vector"
+            android:src="@android:drawable/ic_media_ff"
             app:layout_constraintBottom_toTopOf="@+id/next_track_holder"
             app:layout_constraintEnd_toStartOf="@+id/activity_track_playback_setting"
             app:layout_constraintStart_toEndOf="@+id/activity_track_play_pause"
-            app:layout_constraintTop_toBottomOf="@+id/activity_track_artist" />
+            app:layout_constraintTop_toBottomOf="@+id/activity_track_artist"/>
 
         <ImageView
             android:id="@+id/activity_track_playback_setting"

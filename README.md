@@ -1,3 +1,8 @@
+# Fork
+
+This fork replaces the forward and back buttons in the playback view with ones that jump
+forward or backward by 10 seconds.
+
 # Simple Music Player
 <img alt="Logo" src="graphics/icon.png" width="120" />
 
